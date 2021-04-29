@@ -1,7 +1,0 @@
-
-‹"squid:ClassVariableVisibilityCheck"XMake sApplication a static final constant or non-public and provide accessors if needed.(•”–όÿÿÿÿ
-Nsquid:S1444"2Make this "public static sApplication" field final(•”–όÿÿÿÿ
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(έΫΐϋϋÿÿÿÿ
-…"squid:ClassVariableVisibilityCheck"RMake sDebug a static final constant or non-public and provide accessors if needed.(τ¤δρώÿÿÿÿ
-Hsquid:S1444",Make this "public static sDebug" field final(τ¤δρώÿÿÿÿ
-Msquid:S2696"6Make the enclosing method "static" or remove this set.(χϋσ
