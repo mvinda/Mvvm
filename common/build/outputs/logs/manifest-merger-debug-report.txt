@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+	package
+		ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:1-2:36
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		ADDED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml
+		INJECTED from /Users/weihuada/AwesomeProject/MVVM/common/src/main/AndroidManifest.xml

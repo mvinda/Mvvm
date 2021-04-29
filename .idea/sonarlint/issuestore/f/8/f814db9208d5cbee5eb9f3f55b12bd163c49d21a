@@ -1,0 +1,5 @@
+
+‡"squid:ClassVariableVisibilityCheck"TMake channels a static final constant or non-public and provide accessors if needed.(éÓä¦ÿÿÿÿÿ
+‹squid:S1319"oThe type of the "data" object should be an interface such as "List" rather than the implementation "ArrayList".(š¥¨“øÿÿÿÿ
+Ksquid:S1066 "/Merge this if statement with the enclosing one.(–«·‹ûÿÿÿÿ
+squid:S1319"sThe type of the "channels" object should be an interface such as "List" rather than the implementation "ArrayList".(éÓä¦ÿÿÿÿÿ

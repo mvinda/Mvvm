@@ -1,0 +1,5 @@
+
+¤squid:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½Ä³ïþÿÿÿÿ8ê™Å¾‡/
+‘squid:S1319N"sThe type of the "channels" object should be an interface such as "List" rather than the implementation "ArrayList".(•ôèÑ8ê™Å¾‡/
+Ÿsquid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÎÎ–Ì8ê™Å¾‡/
+Ÿsquid:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ž¦›Í8ê™Å¾‡/

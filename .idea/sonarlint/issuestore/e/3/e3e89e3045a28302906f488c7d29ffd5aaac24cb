@@ -1,0 +1,15 @@
+
+bsquid:S1192P"KDefine a constant instead of duplicating this literal "ISO-8859-1" 3 times.(”«äã
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(òªşÿÿÿÿ
+<squid:S1659" Declare "b2" on a separate line.(ßöôÿùÿÿÿÿ
+<squid:S1659=" Declare "b4" on a separate line.(ùìÃ»üÿÿÿÿ
+o
+squid:S135>"YReduce the total number of break and continue statements in this loop to use at most one.(Øæ¥Â
+o
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Øæ¥Â
+<squid:S1659" Declare "b3" on a separate line.(ßöôÿùÿÿÿÿ
+vsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+vsquid:S11499"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+<squid:S1659=" Declare "b2" on a separate line.(ùìÃ»üÿÿÿÿ
+isquid:S37768"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Ú’–Ò
+<squid:S1659=" Declare "b3" on a separate line.(ùìÃ»üÿÿÿÿ
