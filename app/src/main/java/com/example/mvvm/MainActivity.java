@@ -64,13 +64,6 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
         socialContactFragment = (Fragment) socialContactResult.getDataMap().get("fragment");
 
 
-
-        //Set Toolbar
-        setSupportActionBar(viewDataBinding.toolbar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(getString(R.string.menu_home));
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             disableShiftMode(viewDataBinding.bottomView);
         }
@@ -90,9 +83,8 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
                     fragment = mAccountFragment;
                     break;
             }
-            if(getSupportActionBar() != null) {
-                getSupportActionBar().setTitle(menuItem.getTitle());
-            }
+
+
             switchFragment(fromFragment, fragment);
             fromFragment = fragment;
             return true;
