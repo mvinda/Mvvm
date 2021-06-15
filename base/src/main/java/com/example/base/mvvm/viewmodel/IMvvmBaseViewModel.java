@@ -1,4 +1,4 @@
-package com.example.base.viewmodel;
+package com.example.base.mvvm.viewmodel;
 
 /**
  * Created by Allen on 2017/7/20.

@@ -1,12 +1,11 @@
 package com.example.news.headlinenews;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import com.example.base.fragment.MvvmFragment;
+import com.example.base.mvvm.fragment.MvvmFragment;
 import com.example.news.R;
 import com.example.news.databinding.FragmentHomeBinding;
 import com.google.android.material.tabs.TabLayout;

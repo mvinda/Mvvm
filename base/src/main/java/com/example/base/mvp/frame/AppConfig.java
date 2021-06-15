@@ -1,4 +1,4 @@
-package com.example.base.mvp.base;
+package com.example.base.mvp.frame;
 ;
 
 public class AppConfig {

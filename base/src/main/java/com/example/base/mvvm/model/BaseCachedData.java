@@ -1,4 +1,4 @@
-package com.example.base.model;
+package com.example.base.mvvm.model;
 
 import java.io.Serializable;
 

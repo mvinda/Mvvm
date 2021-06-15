@@ -1,12 +1,12 @@
-package com.example.opensdktesttool.component.base
+package com.example.base.mvp.frame
 
 import android.app.Activity
 import android.os.Bundle
 
-abstract class BaseActivity<P : BasePresenter<*>> : Activity() {
+public abstract class MVPBaseActivity<P : MVPBasePresenter<*>> : Activity() {
     private var mIsTopActivity = false
 
-    var mPresenter: P? = null
+    public var mPresenter: P? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

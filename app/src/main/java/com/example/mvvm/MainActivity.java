@@ -13,8 +13,8 @@ import android.view.View;
 
 import com.billy.cc.core.component.CC;
 import com.billy.cc.core.component.CCResult;
-import com.example.base.activity.MvvmActivity;
-import com.example.base.viewmodel.MvvmBaseViewModel;
+import com.example.base.mvvm.activity.MvvmActivity;
+import com.example.base.mvvm.viewmodel.MvvmBaseViewModel;
 import com.example.mvvm.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
@@ -161,7 +161,7 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
             // 获得viewIndex对应子tab
             View view = menuView.getChildAt(viewIndex);
             // 从子tab中获得其中显示图片的ImageView
-            View icon = view.findViewById(com.google.android.material.R.id.icon);
+            View icon = view.findViewById(R.id.icon);
             // 获得图标的宽度
             int iconWidth = icon.getWidth();
             // 获得tab的宽度/2

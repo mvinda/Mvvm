@@ -1,16 +1,16 @@
-package com.example.opensdktesttool.component.base
+package com.example.base.mvp.frame
 
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
 
-open class BasePresenter<T : IBaseView> : IBasePresenter {
+open class MVPBasePresenter<T : IMVPBaseView> : IMVPBasePresenter {
 
     var mView: T? = null
     var mDisposables: CompositeDisposable? = null
 
 
-    override fun attachView(view: IBaseView) {
+    override fun attachView(view: IMVPBaseView) {
         if (view != null)
             mView = view as T
     }

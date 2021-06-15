@@ -1,6 +1,6 @@
 package com.example.news.newslist;
 
-import com.example.base.activity.IBaseView;
+import com.example.base.mvvm.activity.IBaseView;
 
 /**
  * create by WHD

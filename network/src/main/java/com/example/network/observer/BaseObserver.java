@@ -3,7 +3,7 @@ package com.example.network.observer;
 import android.util.Log;
 
 
-import com.example.base.model.SuperBaseModel;
+import com.example.base.mvvm.model.SuperBaseModel;
 import com.example.network.errorhandler.ExceptionHandle;
 
 import io.reactivex.Observer;

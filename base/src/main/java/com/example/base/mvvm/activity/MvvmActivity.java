@@ -1,4 +1,4 @@
-package com.example.base.activity;
+package com.example.base.mvvm.activity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +12,7 @@ import androidx.databinding.ViewDataBinding;
 import com.example.base.loadsir.EmptyCallback;
 import com.example.base.loadsir.ErrorCallback;
 import com.example.base.loadsir.LoadingCallback;
-import com.example.base.viewmodel.MvvmBaseViewModel;
+import com.example.base.mvvm.viewmodel.MvvmBaseViewModel;
 import com.kingja.loadsir.callback.Callback;
 import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;

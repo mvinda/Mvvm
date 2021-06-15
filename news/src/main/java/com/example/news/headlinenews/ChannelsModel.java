@@ -1,6 +1,6 @@
 package com.example.news.headlinenews;
 
-import com.example.base.model.BaseModel;
+import com.example.base.mvvm.model.BaseModel;
 import com.example.network.errorhandler.ExceptionHandle;
 import com.example.network.observer.BaseObserver;
 import com.example.news.api.NewsApi;

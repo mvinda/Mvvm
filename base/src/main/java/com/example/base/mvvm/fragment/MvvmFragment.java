@@ -1,4 +1,4 @@
-package com.example.base.fragment;
+package com.example.base.mvvm.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,12 +15,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.base.R;
-import com.example.base.fragment.IBasePagingView;
 import com.example.base.loadsir.EmptyCallback;
 import com.example.base.loadsir.ErrorCallback;
 import com.example.base.loadsir.LoadingCallback;
 import com.example.base.utils.ToastUtil;
-import com.example.base.viewmodel.IMvvmBaseViewModel;
+import com.example.base.mvvm.viewmodel.IMvvmBaseViewModel;
 import com.kingja.loadsir.callback.Callback;
 import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;

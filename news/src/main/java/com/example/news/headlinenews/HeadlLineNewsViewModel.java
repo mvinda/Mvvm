@@ -2,9 +2,9 @@ package com.example.news.headlinenews;
 
 import android.util.Log;
 
-import com.example.base.activity.IBaseView;
-import com.example.base.model.BaseModel;
-import com.example.base.viewmodel.MvvmBaseViewModel;
+import com.example.base.mvvm.activity.IBaseView;
+import com.example.base.mvvm.model.BaseModel;
+import com.example.base.mvvm.viewmodel.MvvmBaseViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

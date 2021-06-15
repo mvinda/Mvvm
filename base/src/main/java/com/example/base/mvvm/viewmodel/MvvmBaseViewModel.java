@@ -1,8 +1,9 @@
-package com.example.base.viewmodel;
+package com.example.base.mvvm.viewmodel;
 
 import androidx.lifecycle.ViewModel;
 
-import com.example.base.model.SuperBaseModel;
+
+import com.example.base.mvvm.model.SuperBaseModel;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;

@@ -1,7 +1,7 @@
 package com.example.news.newslist;
 
 
-import com.example.base.model.BasePagingModel;
+import com.example.base.mvvm.model.BasePagingModel;
 import com.example.common.views.picturetitleview.PictureTitleViewViewModel;
 import com.example.common.views.titleview.TitleViewViewModel;
 import com.example.network.errorhandler.ExceptionHandle;

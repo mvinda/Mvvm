@@ -1,4 +1,4 @@
-package com.example.base.activity;
+package com.example.base.mvvm.activity;
 
 /**
  * Created by Allen on 2017/7/20.

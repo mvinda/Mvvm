@@ -2,9 +2,9 @@ package com.example.news.newslist;
 
 
 import com.example.base.customview.BaseCustomViewModel;
-import com.example.base.fragment.IBasePagingView;
-import com.example.base.model.BasePagingModel;
-import com.example.base.viewmodel.MvvmBaseViewModel;
+import com.example.base.mvvm.fragment.IBasePagingView;
+import com.example.base.mvvm.model.BasePagingModel;
+import com.example.base.mvvm.viewmodel.MvvmBaseViewModel;
 
 import java.util.ArrayList;
 

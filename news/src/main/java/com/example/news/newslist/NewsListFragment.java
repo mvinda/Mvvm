@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.base.customview.BaseCustomViewModel;
-import com.example.base.fragment.MvvmFragment;
+import com.example.base.mvvm.fragment.MvvmFragment;
 import com.example.news.R;
 import com.example.news.databinding.NewsFragmentBinding;
 import com.example.news.newslist.NewsListRecyclerViewAdapter;

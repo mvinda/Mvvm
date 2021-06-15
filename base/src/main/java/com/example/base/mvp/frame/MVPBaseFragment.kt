@@ -1,4 +1,4 @@
-package com.example.opensdktesttool.component.base
+package com.example.base.mvp.frame
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import butterknife.ButterKnife
 import butterknife.Unbinder
 
-abstract class BaseFragment : Fragment() {
+abstract class MVPBaseFragment : Fragment() {
 
     private lateinit var mView: View
     private lateinit var mUnbinder: Unbinder
