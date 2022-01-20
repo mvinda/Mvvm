@@ -2,7 +2,6 @@ package com.example.mvvm.application;
 
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.billy.cc.core.component.CC;
 import com.example.base.BaseApplication;
 import com.example.base.loadsir.CustomCallback;
 import com.example.base.loadsir.EmptyCallback;
@@ -36,8 +35,5 @@ public class NewsApplication extends BaseApplication {
                 .setDefaultCallback(LoadingCallback.class)//设置默认状态页
                 .commit();
 
-        CC.enableDebug(BuildConfig.DEBUG);
-        CC.enableVerboseLog(BuildConfig.DEBUG);
-        CC.enableRemoteCC(BuildConfig.DEBUG);
     }
 }

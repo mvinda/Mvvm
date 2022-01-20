@@ -14,8 +14,6 @@ import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.billy.cc.core.component.CC;
-import com.billy.cc.core.component.CCResult;
 import com.example.base.mvvm.activity.MvvmActivity;
 import com.example.base.mvvm.viewmodel.MvvmBaseViewModel;
 import com.example.mvvm.databinding.ActivityMainBinding;
