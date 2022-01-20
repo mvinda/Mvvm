@@ -1,11 +1,0 @@
-
-Ç"squid:ClassVariableVisibilityCheckÄ"SMake message a static final constant or non-public and provide accessors if needed.(’√ÿ∑
-Å"squid:ClassVariableVisibilityChecku"SMake message a static final constant or non-public and provide accessors if needed.(’√ÿ∑
-~"squid:ClassVariableVisibilityCheck"PMake code a static final constant or non-public and provide accessors if needed.(Ω±œ©
-csquid:S1871F"LThis branch's code block is the same as the block for the branch on line 66.(‰ëŒâ
-Vsquid:S1118V":Add a private constructor to hide the implicit public one.(ü®ö›˙ˇˇˇˇ
-4squid:S1165t"Make this "code" field final.(Ω±œ©
-8squid:S1165Ä" Make this "message" field final.(’√ÿ∑
-~"squid:ClassVariableVisibilityCheckt"PMake code a static final constant or non-public and provide accessors if needed.(Ω±œ©
-4squid:S1165"Make this "code" field final.(Ω±œ©
-7squid:S1165u" Make this "message" field final.(’√ÿ∑

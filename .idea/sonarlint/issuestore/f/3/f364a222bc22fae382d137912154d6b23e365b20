@@ -1,44 +1,0 @@
-
-ˆsquid:S1319‰"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(·ĞÇ
-jsquid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÍ³ù
-rsquid:S30083"[Rename this field "SECOND_FILE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ú€»
-zsquid:S30084"cRename this field "SP_KEY_CUR_LOG_FILE_FLAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¢·‰
-@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Q
-squid:S899ü";Do something with the "boolean" value returned by "delete".(öûâ
-ksquid:S2095œ"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(ŞšæÖùÿÿÿÿ
-Dsquid:S28858"(Make "sDateFormat" an instance variable.(²¼—ûÿÿÿÿ
-Bsquid:S00108Ñ")Either remove or fill this block of code.(”ı¾
-W
-squid:S899¿";Do something with the "boolean" value returned by "delete".(Ò¦ˆ™øÿÿÿÿ
-xsquid:S1450."\Remove the "isMainProcess" field and declare it as a local variable in the relevant methods.(ø¯İşÿÿÿÿ
-Psquid:S1197™"8Move the array designator from the variable to the type.(î¨İ«
-vsquid:S30082"ZRename this field "FIRST_FILE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€œ ‚øÿÿÿÿ
-Gsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-Ssquid:S2696È"6Make the enclosing method "static" or remove this set.(©éÀÜúÿÿÿÿ
-jsquid:S3776¹"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(­…œİ
-jsquid:S2259°"RA "NullPointerException" could be thrown; "lastRandomAccessFile" is nullable here.(ª¼Äò
-@squid:S1148Ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-wsquid:S00115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ğ…ûüûÿÿÿÿ
-fsquid:S4042¿"IUse "java.nio.Files#delete" here for better messages on error conditions.(Ò¦ˆ™øÿÿÿÿ
-Ssquid:S2696Â"6Make the enclosing method "static" or remove this set.(êË«“şÿÿÿÿ
-Fsquid:S3398İ")Move this method into "LoggerTaskThread".(€¼Ä´üÿÿÿÿ
-Osquid:S1659"2Declare "lastRandomAccessFile" on a separate line.(Ô•…äùÿÿÿÿ
-@squid:S1148©"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Lsquid:S1066Ã"/Merge this if statement with the enclosing one.(¤ˆˆúÿÿÿÿ
-`squid:S4042ü"IUse "java.nio.Files#delete" here for better messages on error conditions.(öûâ
-bsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(ÈÄŒĞ
-Bsquid:S00108²")Either remove or fill this block of code.(”ı¾
-^
-squid:S899ş"BDo something with the "boolean" value returned by "createNewFile".(œ†¥ßúÿÿÿÿ
-^
-squid:S899Æ"BDo something with the "boolean" value returned by "createNewFile".(œ†¥ßúÿÿÿÿ
-]squid:S21840"FCast one of the operands of this multiplication operation to a "long".(£”‚¾
-@squid:S1148ï"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Vsquid:S1118":Add a private constructor to hide the implicit public one.(ŸæÌıÿÿÿÿ
-^squid:S2184Š"FCast one of the operands of this multiplication operation to a "long".(ÚÍ³ù
-¯%squid:RedundantThrowsDeclarationCheck"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ùàæ ùÿÿÿÿ
-Tsquid:S1854Ñ"7Remove this useless assignment to local variable "ret".(ç¼ˆ«úÿÿÿÿ
-Rsquid:S1141Á"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-Esquid:S1481Ñ"(Remove this unused "ret" local variable.(ç¼ˆ«úÿÿÿÿ
-nsquid:S2095š"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(ç»Ñüÿÿÿÿ

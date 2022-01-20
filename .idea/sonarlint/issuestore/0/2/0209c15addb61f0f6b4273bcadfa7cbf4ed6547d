@@ -1,10 +1,0 @@
-
-qsquid:ModifiersOrderCheck""EReorder the modifiers to comply with the Java Language Specification.(Žü¡ô8º¨“¾‡/
-åsquid:S1598"ÆThis file "NewsListFragment.java" should be located in "com/xiangxue/news/homefragment/newslist" directory, not in "/Users/weihuada/AwesomeProject/MVVM/news/src/main/java/com/example/news/newslist".(˜ÉÑê8º¨“¾‡/
-Ÿsquid:S1186t"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆÊÏ¢8àÚ”¾‡/
-¤squid:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶¾’Ïüÿÿÿÿ8àÚ”¾‡/
-Jsquid:S1602T",Remove useless curly braces around statement(õâ†‡8º¨“¾‡/
-’squid:S1319\"tThe type of the "newsItems" object should be an interface such as "List" rather than the implementation "ArrayList".(Í€8º¨“¾‡/
-Jsquid:S1602Q",Remove useless curly braces around statement(íèÉ’8º¨“¾‡/
-asquid:S1155]">Use isEmpty() to check whether the collection is empty or not.(„Ç×Ýøÿÿÿÿ8º¨“¾‡/
-qsquid:ModifiersOrderCheck#"EReorder the modifiers to comply with the Java Language Specification.(Íé¬ú8º¨“¾‡/
