@@ -7,12 +7,13 @@ import androidx.fragment.app.FragmentTransaction;
 import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.billy.cc.core.component.CC;
-import com.billy.cc.core.component.CCResult;
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.base.mvvm.activity.MvvmActivity;
 import com.example.base.mvvm.viewmodel.MvvmBaseViewModel;
 import com.example.mvvm.databinding.ActivityMainBinding;
@@ -25,6 +26,7 @@ import java.lang.reflect.Field;
 
 import q.rorbin.badgeview.QBadgeView;
 
+@Route(path = "/app/app/MainActivity")
 public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseViewModel> {
     private Fragment mHomeFragment;
     private Fragment socialContactFragment;
@@ -49,20 +51,15 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        CCResult homeResult = CC.obtainBuilder("News").setActionName("getHeadlineNewsFragment").build().call();
-        mHomeFragment = (Fragment) homeResult.getDataMap().get("fragment");
+        ARouter.getInstance().inject(this);
 
-        CCResult accountResult = CC.obtainBuilder("Account").setActionName("getAccountPage").build().call();
-        mAccountFragment = (Fragment) accountResult.getDataMap().get("fragment");
+        mAccountFragment = (Fragment) ARouter.getInstance().build("/account/account_fragment").navigation();
 
+        socialContactFragment = (Fragment) ARouter.getInstance().build("/contact/contact_fragment").navigation();
 
-        CCResult videoResult = CC.obtainBuilder("Video").setActionName("getVideoFragment").build().call();
-        shortVideoFragment = (Fragment) videoResult.getDataMap().get("fragment");
+        shortVideoFragment = (Fragment) ARouter.getInstance().build("/video/contact_fragment").navigation();
 
-
-        CCResult socialContactResult = CC.obtainBuilder("Contact").setActionName("getContractFragment").build().call();
-        socialContactFragment = (Fragment) socialContactResult.getDataMap().get("fragment");
-
+        mHomeFragment = (Fragment) ARouter.getInstance().build("/home/head_line_news_fragment").navigation();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             disableShiftMode(viewDataBinding.bottomView);

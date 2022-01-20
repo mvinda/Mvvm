@@ -1,7 +1,7 @@
 package com.example.mvvm.application;
 
 
-import com.billy.cc.core.component.CC;
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.base.BaseApplication;
 import com.example.base.loadsir.CustomCallback;
 import com.example.base.loadsir.EmptyCallback;
@@ -20,9 +20,12 @@ public class NewsApplication extends BaseApplication {
         super.onCreate();
         setDebug(BuildConfig.DEBUG);
 
+        ARouter.openLog();
+        ARouter.openDebug();
+        ARouter.init(this);
+
         ApiBase.setNetworkRequestInfo(new NetworkRequestInfo());
         PreferencesUtil.init(this);
-
         LoadSir.beginBuilder()
                 .addCallback(new ErrorCallback())//添加各种状态页
                 .addCallback(new EmptyCallback())
@@ -32,8 +35,5 @@ public class NewsApplication extends BaseApplication {
                 .setDefaultCallback(LoadingCallback.class)//设置默认状态页
                 .commit();
 
-        CC.enableDebug(BuildConfig.DEBUG);
-        CC.enableVerboseLog(BuildConfig.DEBUG);
-        CC.enableRemoteCC(BuildConfig.DEBUG);
     }
 }

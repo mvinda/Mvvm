@@ -3,7 +3,7 @@ package com.example.base.mvp.frame
 import android.app.Activity
 import android.os.Bundle
 
-public abstract class MVPBaseActivity<P : MVPBasePresenter<*>> : Activity() {
+abstract class MVPBaseActivity<P : MVPBasePresenter<*>> : Activity() {
     private var mIsTopActivity = false
 
     public var mPresenter: P? = null

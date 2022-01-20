@@ -5,6 +5,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.base.mvvm.fragment.MvvmFragment;
 import com.example.news.R;
 import com.example.news.databinding.FragmentHomeBinding;
@@ -12,6 +13,8 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
+
+@Route(path = "/home/head_line_news_fragment")
 public class HeadlineNewsFragment extends MvvmFragment<FragmentHomeBinding, HeadlLineNewsViewModel> implements HeadlLineNewsViewModel.IMainView {
     HeadlineNewsFragmentAdapter mAdapter;
 
