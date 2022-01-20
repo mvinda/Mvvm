@@ -8,7 +8,10 @@ import com.example.base.mvp.frame.MVPBaseActivity
 import com.example.mvvm.MainActivity
 import com.example.mvvm.R
 import kotlinx.android.synthetic.main.activity_splash.*
+import com.alibaba.android.arouter.facade.annotation.Route
+import com.alibaba.android.arouter.launcher.ARouter
 
+@Route(path = "/app/app/SplashActivity")
 class SplashActivity : MVPBaseActivity<SplashPresenter>(), SplashContract.View {
 
 
@@ -17,6 +20,7 @@ class SplashActivity : MVPBaseActivity<SplashPresenter>(), SplashContract.View {
     }
 
     override fun initView() {
+        ARouter.getInstance().inject(this)
         if (mPresenter == null) {
             mPresenter = SplashPresenter()
         }
@@ -45,8 +49,8 @@ class SplashActivity : MVPBaseActivity<SplashPresenter>(), SplashContract.View {
 
             override fun onAnimationRepeat(animation: Animation?) {
                 Glide.with(this@SplashActivity)
-                        .load(image)
-                        .into(splashImage)
+                    .load(image)
+                    .into(splashImage)
             }
 
         })
@@ -70,7 +74,7 @@ class SplashActivity : MVPBaseActivity<SplashPresenter>(), SplashContract.View {
     }
 
     override fun startHome() {
-        startActivity(Intent(this, MainActivity::class.java))
+        ARouter.getInstance().build("/app/app/MainActivity").navigation()
     }
 
     override fun onStop() {
