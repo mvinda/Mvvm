@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">contact</string>
-    <string name="menu_social_contact">社交</string>
+    <string name="menu_social_contact">私聊</string>
 </resources>

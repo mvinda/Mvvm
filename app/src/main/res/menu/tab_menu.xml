@@ -6,17 +6,25 @@
         android:title="@string/menu_home" />
 
     <item
-        android:id="@+id/menu_short_video"
+        android:id="@+id/menu_merchants"
         android:icon="@drawable/tab_bar_category_ic"
-        android:title="@string/menu_short_video" />
+        android:title="@string/menu_merchants" />
 
     <item
-        android:id="@+id/menu_social_contact"
+        android:id="@+id/menu_mall"
         android:icon="@drawable/tabbar_crux"
-        android:title="@string/menu_social_contact" />
+        android:title="@string/menu_mall" />
+
+
+    <item
+        android:id="@+id/menu_chat"
+        android:icon="@drawable/chat"
+        android:title="@string/menu_chat" />
 
     <item
         android:id="@+id/menu_account"
         android:icon="@drawable/tabbar_account"
         android:title="@string/menu_account" />
+
+
 </menu>

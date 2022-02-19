@@ -7,7 +7,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,8 +29,9 @@ import q.rorbin.badgeview.QBadgeView;
 public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseViewModel> {
     private Fragment mHomeFragment;
     private Fragment socialContactFragment;
-    private Fragment shortVideoFragment;
+    private Fragment mallFragment;
     private Fragment mAccountFragment;
+    private Fragment mSafeFragment;
 
     @Override
     public int getLayoutId() {
@@ -57,9 +57,12 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
 
         socialContactFragment = (Fragment) ARouter.getInstance().build("/contact/contact_fragment").navigation();
 
-        shortVideoFragment = (Fragment) ARouter.getInstance().build("/video/contact_fragment").navigation();
+        mallFragment = (Fragment) ARouter.getInstance().build("/mall/mall_fragment").navigation();
 
         mHomeFragment = (Fragment) ARouter.getInstance().build("/home/head_line_news_fragment").navigation();
+
+        mSafeFragment = (Fragment) ARouter.getInstance().build("/safe/safe_fragment").navigation();
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             disableShiftMode(viewDataBinding.bottomView);
@@ -70,10 +73,13 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
                 case R.id.menu_home:
                     fragment = mHomeFragment;
                     break;
-                case R.id.menu_short_video:
-                    fragment = shortVideoFragment;
+                case R.id.menu_merchants:
+                    fragment = mSafeFragment;
                     break;
-                case R.id.menu_social_contact:
+                case R.id.menu_mall:
+                    fragment = mallFragment;
+                    break;
+                case R.id.menu_chat:
                     fragment = socialContactFragment;
                     break;
                 case R.id.menu_account:
@@ -90,7 +96,8 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(viewDataBinding.container.getId(), mHomeFragment);
         transaction.commit();
-        showBadgeView(3, 5);
+        //显示红点的数量
+//        showBadgeView(3, 5);
 
     }
 

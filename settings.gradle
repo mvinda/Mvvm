@@ -1,1 +1,3 @@
 include ':app', ':base', ':news', ':network', ':common', ':account', ':video', ':contact'
+include ':mall'
+include ':safe'

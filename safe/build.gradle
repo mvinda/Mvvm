@@ -1,22 +1,19 @@
-ext.mainApp = true //标记为主app module
 apply from: rootProject.file('common.gradle')
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
-
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
     buildToolsVersion rootProject.buildToolsVersion
     kotlinOptions { jvmTarget = "1.8" }
 
+
     defaultConfig {
-        applicationId "com.example.mvvm"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode rootProject.versionCode
         versionName rootProject.versionName
-
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [moduleName: project.getName()]
@@ -28,54 +25,37 @@ android {
                 arg("AROUTER_MODULE_NAME", project.getName())
             }
         }
-    }
 
-    signingConfigs {
-        platform638 {
-            storeFile file(KEY_STORE_FILE_638)
-            storePassword KEY_STORE_PASSWORD_OS
-            keyAlias KEY_ALIAS_OS
-            keyPassword KEY_PASSWORD_OS
-        }
+
     }
 
     buildTypes {
         release {
-            signingConfig signingConfigs.platform638
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            debuggable true
         }
     }
-    dataBinding {
+
+    dataBinding{
         enabled true
     }
-
     compileOptions {
         sourceCompatibility = '1.8'
         targetCompatibility = '1.8'
     }
+
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintlayoutVersion"
-    implementation project(":base")
-    implementation "com.google.android.material:material:$rootProject.androidXVersion"
-    implementation 'q.rorbin:badgeview:1.1.3'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation project(":network")
-    implementation project(path: ':common')
-    implementation project(path: ':account')
-    implementation project(path: ':news')
-    implementation project(path: ':mall')
-    implementation project(path: ':contact')
-    implementation project(path: ':safe')
-    implementation 'com.github.bumptech.glide:glide:4.0.0'
+    compile project(path: ':common')
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-7'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-7'
+    implementation 'com.google.android.material:material:1.0.0'//没有使用特殊Header，可以不加这行
     implementation 'com.alibaba:arouter-api:1.3.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
     kapt 'com.alibaba:arouter-compiler:1.1.4'
-
-
 }
