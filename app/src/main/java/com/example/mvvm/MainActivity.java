@@ -59,7 +59,7 @@ public class MainActivity extends MvvmActivity<ActivityMainBinding, MvvmBaseView
 
         mallFragment = (Fragment) ARouter.getInstance().build("/mall/mall_fragment").navigation();
 
-        mHomeFragment = (Fragment) ARouter.getInstance().build("/home/head_line_news_fragment").navigation();
+        mHomeFragment = (Fragment) ARouter.getInstance().build("/home/home_fragment").navigation();
 
         mSafeFragment = (Fragment) ARouter.getInstance().build("/safe/safe_fragment").navigation();
 

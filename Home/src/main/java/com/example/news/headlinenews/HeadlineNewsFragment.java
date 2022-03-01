@@ -14,7 +14,7 @@ import com.google.android.material.tabs.TabLayout;
 import java.util.ArrayList;
 
 
-@Route(path = "/home/head_line_news_fragment")
+@Route(path = "/home/home_fragment")
 public class HeadlineNewsFragment extends MvvmFragment<FragmentHomeBinding, HeadlLineNewsViewModel> implements HeadlLineNewsViewModel.IMainView {
     HeadlineNewsFragmentAdapter mAdapter;
 

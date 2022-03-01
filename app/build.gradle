@@ -68,7 +68,7 @@ dependencies {
     implementation project(":network")
     implementation project(path: ':common')
     implementation project(path: ':account')
-    implementation project(path: ':news')
+    implementation project(path: ':home')
     implementation project(path: ':mall')
     implementation project(path: ':contact')
     implementation project(path: ':safe')
