@@ -1,4 +1,4 @@
-package com.example.news.headlinenews;
+package com.example.news.home;
 
 import com.example.base.mvvm.model.BaseModel;
 import com.example.network.errorhandler.ExceptionHandle;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * Created by Allen on 2017/7/20.
  * 保留所有版权，未经允许请不要分享到互联网和其他人
  */
-public class ChannelsModel extends BaseModel<ArrayList<ChannelsModel.Channel>> {
+public class HomeModel extends BaseModel<ArrayList<HomeModel.Channel>> {
     private static final String PREF_KEY_HOME_CHANNEL = "pref_key_home_channel";
     public static final String PREDEFINED_CHANNELS = "[\n" +
             "    {\n" +
