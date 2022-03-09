@@ -13,7 +13,7 @@ import com.example.mvvm.BuildConfig;
 import com.example.network.ApiBase;
 import com.kingja.loadsir.core.LoadSir;
 
-public class NewsApplication extends BaseApplication {
+public class MyApplication extends BaseApplication {
 
     @Override
     public void onCreate() {

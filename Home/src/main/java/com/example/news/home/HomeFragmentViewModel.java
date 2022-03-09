@@ -1,5 +1,6 @@
 package com.example.news.home;
 
+import android.app.Application;
 import android.util.Log;
 
 import com.example.base.mvvm.activity.IBaseView;

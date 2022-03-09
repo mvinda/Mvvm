@@ -87,7 +87,9 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -199,10 +201,149 @@
 
                         </LinearLayout>
 
+                    </LinearLayout>
 
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:background="#FFF"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            >
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_home_safe"
+                                android:layout_gravity="center_horizontal"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宠物保险"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+
+                            >
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_home_bathe"
+                                android:layout_gravity="center_horizontal"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宠物洗澡"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            >
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_home_trim"
+                                android:layout_gravity="center_horizontal"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宠物美容"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            >
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_home_foster"
+                                android:layout_gravity="center_horizontal"
+
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宠物寄养"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            >
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_home_next_object"
+                                android:layout_gravity="center_horizontal"
+
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="宠物周边"
+                                android:textColor="#000"
+                                android:layout_gravity="center_horizontal"
+                                />
+
+                        </LinearLayout>
 
                     </LinearLayout>
+
+
+                    <com.youth.banner.Banner
+                        android:id="@+id/mBanner"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp" />
 
                 </LinearLayout>
 
